@@ -24,5 +24,5 @@ toR = [
 for target,outcome in toR:
     cleanfile = re.sub(target,outcome, file)
 
-with open(Path&Name-to-save,"w") as f:
+with open("Path&Name-to-save","w") as f:
     f.write(cleanfile)
